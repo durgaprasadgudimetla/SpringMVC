@@ -16,9 +16,14 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
 	</definition>
 
-	<definition name="hello" extends="base.definition">
-		<put-attribute name="title" value="Hello Spring MVC" />
-		<put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />
+	<definition name="employee" extends="base.definition">
+		<put-attribute name="title" value="Employees list" />
+		<put-attribute name="body" value="/WEB-INF/jsp/employees.jsp" />
+	</definition>
+	
+	<definition name="journal" extends="base.definition">
+		<put-attribute name="title" value="Menu Manager" />
+		<put-attribute name="body" value="/WEB-INF/jsp/article.jsp" />
 	</definition>
 
 </tiles-definitions>
